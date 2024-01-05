@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Mrudula.</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#section">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	<!---------Home Section--------------->
+  <section class="section" id="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Mrudula<br />a</span> Web Developer
+        </h1>
+        <p class="description">
+          Welcome to my web developer portfolio! I'm Mrudula, a web developer passionate about creating beautiful,
+            responsive, and user-friendly websites.
+        </p>
+        <div class="action__btns">
+        
+          <button class="portfolio">Resume</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="assets/Profile.png" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="assets/woman 2.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2 class="about_content"> <span>About</span> Me</h2>
+			<h4 class="about_title">  A Web <span>Developer!<span> </h4>
+			<p>Hello! I'm Mrudula, a web developer passionate about creating beautiful,
+        responsive, and user-friendly websites. With a foundation in HTML, CSS, and JavaScript, 
+        I am on a journey to create innovative and user-friendly websites. My curiosity extends beyond coding;
+         I am constantly exploring new technologies and design trends. Let's connect and build something extraordinary together!</p>
+				<a href="#section" class="btn">About</a>
+		</div>
+	 </section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2>My<span>Skills</span></h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<img src="assets/credit-card-2-front.svg"  height="45">
+			</div>
+			<h3>Web Design</h3>
+			<p>
+        Elevate your digital presence with bespoke web design services.I create seamless, user-friendly interfaces that not only look 
+        stunning but also elevate the overall usability of your web pages.</p>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<img src="assets/code-slash.svg"  height="45">
+			</div>
+			<h3>Web Development</h3>
+			<p>Crafting dynamic digital experiences through innovative web development. With a foundation in HTML, CSS, and JavaScript ,I craft responsive, 
+        user-friendly website and scalable websites for businesses.</p>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<img src="assets/database-gear.svg"  height="45">
+			</div>
+			<h3>Data Science</h3>
+			<p>Elevate your business with expert data science solutions. I leverage advanced techniques to transform raw data into actionable 
+        intelligence, empowering informed decision-making.</p>
+		</div>
+	</div>
+
+</section>
+
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind. <br>Let's create together!<br></h4>
+		<p><br>959443823</br>
+      sagvekarmrudula@gmail.com</p>
+		
+
+		<div class="contact-icons">
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-telegram'></i></a>
+			<a href="#"><i class='bx bxl-linkedin'></i></a>
+			
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Design By Mrudula.</p>
+	</div>
+	<div class="top">
+		<a href="#section"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
